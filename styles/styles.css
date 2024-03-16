@@ -666,21 +666,19 @@ body {
 
 .field-group {
   display: grid;
+  align-items: center;
+  gap: 18px;
 }
 
 .field-group-date {
   position: relative;
   grid-column: 1 / -1;
-  gap: 18px;
   grid-template-columns: auto 440px;
-  align-items: center;
 }
 
 .field-group-visitors {
   grid-template-columns: min-content 110px;
   justify-content: space-between;
-  gap: 18px;
-  align-items: center;
 }
 
 .visitors-children {
