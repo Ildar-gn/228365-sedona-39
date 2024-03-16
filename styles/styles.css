@@ -677,15 +677,14 @@ body {
 }
 
 .field-group-visitors {
-  grid-template-columns: auto 110px;
+  grid-template-columns: min-content 110px;
+  justify-content: space-between;
   gap: 18px;
   align-items: center;
 }
 
 .visitors-children {
-  grid-template-columns: min-content 110px;
   justify-self: end;
-  justify-content: space-between;
   min-width: 242px;
 }
 
@@ -821,8 +820,10 @@ body {
 .message-field {
   position: absolute;
   left: 157px;
-  top: 52px;
+  top: 48px;
   display: none;
+  padding-top: 4px;
+  padding-right: 10px;
   font-size: 16px;
   line-height: 21px;
 }
