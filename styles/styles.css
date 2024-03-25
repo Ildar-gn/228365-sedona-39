@@ -437,10 +437,16 @@ body {
   font-weight: 700;
   color: var(--color-dark-primary);
   text-transform: uppercase;
+  text-wrap: balance;
 }
 
 .about-title {
   margin-bottom: 25px;
+}
+
+.subtitle {
+  margin-bottom: 54px;
+  text-wrap: balance;
 }
 
 .about-subtitle {
@@ -503,6 +509,11 @@ body {
   color: var(--color-light);
 }
 
+.description {
+  font-size: 18px;
+  line-height: 21px;
+}
+
 .about-description::before {
   content: "";
   display: block;
@@ -516,11 +527,6 @@ body {
 
 .about-item-row .about-description::before {
   background-color: var(--color-light);
-}
-
-.about-description {
-  font-size: 18px;
-  line-height: 21px;
 }
 
 /* advantages */
@@ -581,11 +587,6 @@ body {
 
 .advantages-icon-gift::before {
   background-image: url("../images/icons/advantages-icon-gift.svg");
-}
-
-.advantages-description {
-  font-size: 18px;
-  line-height: 21px;
 }
 
 /** modal */
@@ -1479,10 +1480,6 @@ body {
   text-align: center;
 }
 
-.offer-subtitle {
-  margin-bottom: 54px;
-}
-
 .offer-button {
   padding: 8px 50px;
 }
@@ -1504,10 +1501,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.subscribe-subtitle {
-  margin-bottom: 54px;
 }
 
 .subscribe-bg .subscribe-title,
