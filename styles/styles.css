@@ -1539,12 +1539,12 @@ body {
   border-radius: 4px 0 0 4px;
 }
 
-.subscribe-field:hover,
-.subscribe-field:focus {
+.subscribe-field:hover {
   background-color: var(--color-gray-middle);
 }
 
-.subscribe-field:focus {
+.subscribe-field:focus-visible {
+  background-color: var(--color-secondary-middle);
   outline: 3px solid var(--color-secondary);
   outline-offset: -3px;
 }
