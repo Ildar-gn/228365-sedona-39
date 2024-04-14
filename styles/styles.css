@@ -72,7 +72,7 @@
   textarea,
   select,
   button):where([class]) {
-  font: inherit;
+  font-family: inherit;
 }
 
 /* Делаем изображения адаптивными */
